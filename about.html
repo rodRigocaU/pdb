@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chatbot</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styles2.css">
+		<script src="javascript/jquery-3.3.1.min.js"></script>
+        <script src="javascript/funciona2.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+	</head>	
+	<body style=" background-image: url(imagenes/fondo3.jpg)">
+		<header id="encabezado">
+			<h1 id="titulo">BIENVENIDO A CHATBOT</h1>	
+		</header>
+		<nav >
+        <ul id="navegacion">
+                <li><a href="main.html">HOME</a></li>
+                <li><a href="chat.html">CHAT BOT</a></li>
+                <li><a href="about.html">HISTORIA</a></li>
+          <li id="videosY"><a>VIDEOS</a>
+            <ul id="subVY">
+              <il><a href="https://www.youtube.com/watch?v=lCjoSvi4AYI">¿Que es?</a></il>
+              <il><a href="https://www.youtube.com/watch?v=WnzlbyTZsQY">AI vs. AI</a></il>
+              <il><a href="https://www.youtube.com/watch?v=Lu8hsrOPxvE">Chatbot para Facebook</a></il>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+		<section>
+            <article id="text1">
+                <div id="caja1">
+                <p><b>
+                        <div id="card"> 
+                                <div class="front"> 
+                                        <img src="imagenes/elon.png" alt="logo" height="200" width="200" style="margin-left:200px;">
+                                   </div>
+                                <div class="back">
+                                        <h2>Mulkes Efron.</h2>
+                                        <p>
+                                            Mulkes es un vicionario con ganas de eneseñar a toda persona a programar
+                                            ya que hoy por hoy es fundamental por el uso de los computadores
+                                        </p>
+                                  </div>
+                        </div>
+                </div>
+                <br>
+            </article>
+		</section>
+		<footer id="piePagina">  
+			<address id="datos">
+				<p><b>UCSP</b></p>
+				<p><b>Ghana - Africa</b></p>
+			</address>
+        </footer>
+        <script>
+                $("#card").flip({trigger: 'hover'});
+        </script>	  	
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chatbot</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="javascript/jquery-3.3.1.min.js"></script>
+		<script src="java/funciona.js"></script>
+	</head>	
+	<body style=" background-color:#cc00cc ">
+		<header id="encabezado">
+			<h1 id="titulo">BIENVENIDO A EFRON</h1>	
+		</header>
+		<nav >
+			<ul id="navegacion">
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="chat.html">CHAT BOT</a></li>
+                    <li><a href="about.html">HISTORIA</a></li>
+				<li id="videosY"><a>VIDEOS</a>
+					<ul id="subVY">
+						<il><a href="https://www.youtube.com/watch?v=lCjoSvi4AYI">¿Que es?</a></il>
+						<il><a href="https://www.youtube.com/watch?v=WnzlbyTZsQY">AI vs. AI</a></il>
+						<il><a href="https://www.youtube.com/watch?v=Lu8hsrOPxvE">Chatbot para Facebook</a></il>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<section>
+			<img id="imagen1" src="imagenes/robotProfile.jpg" alt="Yo Robot" width="450" height="300">		
+			<img id="gif1" src="imagenes/terminator.gif" alt="Yo Robot" >
+			<br>
+			<p>
+			<input  id="texto" type="text" name="pregunta" placeholder="Escriba algo">
+			<button type='button' id="boton" onclick='EnviarBot()'>Respuesta</button>
+			</p>
+			<p id="respuesta"></p>
+			<img  id="gif2" src="http://www.gifsanimados.org/data/media/118/robot-imagen-animada-0014.gif" border="0" alt="robot-imagen-animada-0014" />
+		</section>
+		<footer id="piePagina">  
+			<address id="datos">
+				<p><b>EFRON</b></p>
+				<p><b>Ghana - Africa</b></p>
+			</address>
+		</footer>	  	
+	</body>
+</html>
